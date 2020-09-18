@@ -96,8 +96,8 @@ void test_gcd(void) {
   CU_ASSERT(2 == permutation(2,1));  
 }
 void test_combination(void) {
- CU_ASSERT(3 == combination(3,2));  */
-}
+ CU_ASSERT(3 == combination(3,2));  
+}*/
 void test_factorial(void) {
   CU_ASSERT( 24== factorial(4));  
 }
