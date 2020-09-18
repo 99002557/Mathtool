@@ -163,8 +163,8 @@ void calculator_menu(void)
 		case LOGN:
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
-            
-            logN(calculator_operand1));
+            calculator_operand2, 
+            logN(calculator_operand1,calculator_operand2 ));
             
             __fpurge(stdin);
             getchar();
@@ -180,27 +180,10 @@ void calculator_menu(void)
             break;
 		
 				
-				
-				
-				
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-        case 5:
-            exit(0);
-            break;
+	
+        //case 5:
+           // exit(0);
+           // break;
         default:
             printf("\n\t---It should never come here---\n");
     }
