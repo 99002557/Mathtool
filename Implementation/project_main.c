@@ -155,7 +155,7 @@ void calculator_menu(void)
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
             
-            log2(calculator_operand1));
+            logtwo(calculator_operand1));
             
             __fpurge(stdin);
             getchar();
