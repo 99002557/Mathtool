@@ -60,13 +60,16 @@ long combination(int operand1, int operand2)
 
 long factorial(int operand1)
 {
-    long long fact = 1;
-     int num;
-    while(num > 0)
-    {
-        fact *= operand1;
-        operand1--;
+    int i,fact;
+    
+    if(operand1 ==0)
+    
+        return 1;
+    else{
+	    for(i=1;i<=operand1;++i)
+		    fact *=i;
     }
+	
 
     return fact;
 }
