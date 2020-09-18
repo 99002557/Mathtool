@@ -61,7 +61,7 @@ long combination(int operand1, int operand2)
 long factorial(int operand1)
 {
     long long fact = 1;
-
+     int num;
     while(num > 0)
     {
         fact *= operand1;
