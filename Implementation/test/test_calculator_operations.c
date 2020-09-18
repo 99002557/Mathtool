@@ -12,6 +12,7 @@ void test_multiply(void);
 void test_divide(void);
 void test_lcm(void);
 void test_gcd(void);
+void test_permutation(void);
 
 /* Start of the application test */
 int main() {
@@ -30,6 +31,7 @@ int main() {
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "lcm", test_lcm);
    CU_add_test(suite, "gcd", test_gcd);
+    CU_add_test(suite, "permutation", permutation);
 
 
 /* Note: Do not edit START*/
@@ -80,6 +82,11 @@ void test_lcm(void) {
 }
 void test_gcd(void) {
   CU_ASSERT(2 == gcd(2,4));
+
+  
+}
+void test_permutation(void) {
+  CU_ASSERT(2 == permutation(2,1));
 
   
 }
