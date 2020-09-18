@@ -99,7 +99,7 @@ void test_combination(void) {
  CU_ASSERT(3 == combination(3,2));  
 }*/
 void test_factorial(void) {
-  CU_ASSERT( 24== factorial(4));  
+  CU_ASSERT( 1== factorial(0));  
 }
 void test_powerof(void) {
   CU_ASSERT(27 == powerof(3,3));  
