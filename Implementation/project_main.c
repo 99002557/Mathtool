@@ -116,7 +116,7 @@ void calculator_menu(void)
             getchar();
             break;
 		case PERMUTATION:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
+            printf("\n\t%d / %d = %ld\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             permutation(calculator_operand1, calculator_operand2));
@@ -144,9 +144,9 @@ void calculator_menu(void)
             break;
 		case POWER:
             printf("\n\t%d / %d = %d\nEnter to continue", 
-            base, 
-            pwr,
-            powerof(base, pwr));
+            calculator_operand1, 
+             calculator_operand2,
+            powerof( calculator_operand1, calculator_operand2));
             
             __fpurge(stdin);
             getchar();
