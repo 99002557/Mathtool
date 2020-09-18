@@ -80,22 +80,3 @@ int res=1,i;
     
     return res;
 }
-int logtwo(int num)
-{
-      if(num==1)
-           return 0;
-      return 1 + log2(num/2);
-}
- 
-int logN(int num,int base)
-{
-      if(num<base)
-           return 0;
-     return 1 + logN(num/base,base);
-}
-
-int naturallog(num)
-{
-	return log(num);
-}
-
