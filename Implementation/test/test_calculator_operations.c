@@ -34,10 +34,10 @@ int main() {
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "lcm", test_lcm);
    CU_add_test(suite, "gcd", test_gcd);
-    CU_add_test(suite, "permutation", test_permutation);
- CU_add_test(suite, "combination", test_combination);
-//CU_add_test(suite, "factorial", test_factorial);
-//CU_add_test(suite, "powerof", test_powerof);
+   // CU_add_test(suite, "permutation", test_permutation);
+ //CU_add_test(suite, "combination", test_combination);
+CU_add_test(suite, "factorial", test_factorial);
+CU_add_test(suite, "powerof", test_powerof);
 
 
 
