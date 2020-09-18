@@ -49,8 +49,6 @@ long permutation(int operand1, int operand2);
 long combination(int operand1, int operand2);
 long factorial(int operand1);
 long powerof(int base,int pwr);
-int logtwo(int num);
-int logN(int num,int base);
-int naturallog(num);
+
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
