@@ -12,7 +12,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE,LCM,GCD,PERMUTATION,COMBINATION,FACTORIAL,POWER,LOG2,LOGN,Naturallog, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE,LCM,GCD,PERMUTATION,COMBINATION,FACTORIAL,POWER, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -151,33 +151,7 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-		case LOG2:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            
-            logtwo(calculator_operand1));
-            
-            __fpurge(stdin);
-            getchar();
-            break;
-		case LOGN:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2, 
-            logN(calculator_operand1,calculator_operand2 ));
-            
-            __fpurge(stdin);
-            getchar();
-            break;
-		case Naturallog:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            
-            naturallog(calculator_operand1));
-            
-            __fpurge(stdin);
-            getchar();
-            break;
+		
 		
 				
 	
