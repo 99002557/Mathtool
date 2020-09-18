@@ -11,6 +11,7 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_lcm(void);
+void test_gcd(void);
 
 /* Start of the application test */
 int main() {
@@ -28,6 +29,7 @@ int main() {
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "lcm", test_lcm);
+   CU_add_test(suite, "gcd", test_gcd);
 
 
 /* Note: Do not edit START*/
@@ -72,7 +74,12 @@ void test_divide(void) {
   CU_ASSERT(3 == divide(2, 2));
 }
 void test_lcm(void) {
-  CU_ASSERT(2 == lcm(2,4));
+  CU_ASSERT(4 == lcm(2,4));
+
+  
+}
+void test_gcd(void) {
+  CU_ASSERT(2 == gcd(2,4));
 
   
 }
