@@ -67,7 +67,9 @@ long factorial(int operand1)
         return 1;
     else{
 	    for(i=1;i<=operand1;++i)
+	    {
 		    fact *=i;
+	    }
     }
 	
 
