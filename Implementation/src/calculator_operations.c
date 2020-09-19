@@ -61,7 +61,7 @@ long combination(int operand1, int operand2)
 long factorial(int operand1)
 {
     long i;
-	fact=1;
+	long fact=1;
     
     if(operand1 ==0)
     {
