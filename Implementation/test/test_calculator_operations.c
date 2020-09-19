@@ -13,7 +13,7 @@ void test_divide(void);
 void test_lcm(void);
 void test_gcd(void);
 void test_permutation(void);
-//void test_combination(void);
+void test_combination(void);
 void test_factorial(void);
 void test_powerof(void);
 
@@ -35,7 +35,7 @@ int main() {
   CU_add_test(suite, "lcm", test_lcm);
    CU_add_test(suite, "gcd", test_gcd);
     CU_add_test(suite, "permutation", test_permutation);
- //CU_add_test(suite, "combination", test_combination);
+ CU_add_test(suite, "combination", test_combination);
 CU_add_test(suite, "factorial", test_factorial);
 CU_add_test(suite, "powerof", test_powerof);
 
@@ -95,9 +95,9 @@ void test_gcd(void) {
 void test_permutation(void) {
   CU_ASSERT(2 == permutation(2,1));  
 }
-/*void test_combination(void) {
+void test_combination(void) {
  CU_ASSERT(3 == combination(3,2));  
-}*/
+}
 void test_factorial(void) {
   CU_ASSERT( 1== factorial(0));  
    CU_ASSERT( 6== factorial(3)); 
