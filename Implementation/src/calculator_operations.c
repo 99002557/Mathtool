@@ -63,10 +63,11 @@ long factorial(int operand1)
     int i,fact;
     
     if(operand1 ==0)
-    
+    {
         return 1;
+    }
     else{
-	    for(i=1;i<=operand1;++i)
+	    for(i=1;i<=operand1;i++)
 	    {
 		    fact *=i;
 	    }
