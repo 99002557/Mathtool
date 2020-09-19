@@ -60,7 +60,7 @@ long combination(int operand1, int operand2)
 
 long factorial(int operand1)
 {
-    int i,fact;
+    long i,fact;
     
     if(operand1 ==0)
     {
