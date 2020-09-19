@@ -70,10 +70,9 @@ long factorial(int operand1)
 	    {
 		    fact *=i;
 	    }
+	      return fact;
     }
-	
-
-    return fact;
+  
 }
 long powerof(int base,int pwr)
 {
