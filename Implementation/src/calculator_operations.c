@@ -60,7 +60,8 @@ long combination(int operand1, int operand2)
 
 long factorial(int operand1)
 {
-    long i,fact;
+    long i;
+	fact=1;
     
     if(operand1 ==0)
     {
@@ -69,7 +70,7 @@ long factorial(int operand1)
     else{
 	    for(i=1;i<=operand1;i++)
 	    {
-		    fact *=i;
+		    fact =fact*i;
 	    }
 	      return fact;
     }
