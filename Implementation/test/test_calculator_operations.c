@@ -102,7 +102,9 @@ void test_factorial(void) {
   CU_ASSERT( 1== factorial(0));  
 }
 void test_powerof(void) {
-  CU_ASSERT(27 == powerof(3,3));  
+  CU_ASSERT(27 == powerof(3,3));
+   CU_ASSERT(1 == powerof(3,0)); 
+   
 }
 
 
